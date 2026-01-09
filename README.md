@@ -27,7 +27,19 @@ APP_URL=http://localhost
 
 ```
 
-4. **Jalankan aplikasi:**
+4. **jalankan file migration:**
+
+```shell
+php artisan migrate
+```
+
+5. **jalankan seeder:**
+
+```shell
+php artisan db:seed
+```
+
+6. **Jalankan aplikasi:**
 
 ```shell
 php artisan serve
